@@ -14,6 +14,20 @@
 </head>
 
 <body>
+  <header class="container-fluid bg-light">
+    <h3 id="title">Fight Game</h3>
+    <button class="end-game btn btn-danger" id="end-game-btn" onclick="endGame()">End Game</button>
+  </header>
+
+  <main class="container-fluid">
+
+    <!-- Only displays when game is not running -->
+    <div class="play-game text-center mt-5" id="playing-game">
+      <h4>Play this sweet Game!</h4>
+      <button id="start-game" class="btn btn-success" onclick="startGame()">Start Game</button>
+    </div>
+
+  </main>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -26,6 +40,10 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+  <script src="./players/jerry.js"></script>
+  <script src="./players/morty.js"></script>
+  <script src="./players/rick.js"></script>
+  <script src="./players/mrMeeseeks.js"></script>
   <script src="./app.js"></script>
 </body>
 
