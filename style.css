@@ -5,3 +5,16 @@ header{
 .end-game{
   display: none;
 }
+
+.choose-player{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 780px){
+  .choose-player{
+    flex-direction: column;
+  }
+}

@@ -1,5 +1,5 @@
 //Player object
-let meeseeks = {
+let mrMeeseeks = {
   name: 'Mr Meeseeks',
   health: '1200',
   attacks: {
