@@ -27,8 +27,6 @@ let mrMeeseeks = {
       loadTime: '3100',
       description: 'Existance is pain!!',
     },
-  },
-  defenses: {
     immortal: {
       type: 'defense',
       damage: '0',

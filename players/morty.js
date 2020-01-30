@@ -27,8 +27,6 @@ let morty = {
       loadTime: '1500',
       description: 'You may be weak...but you can still do damage!',
     },
-  },
-  defenses: {
     crying: {
       type: 'defense',
       damage: '0',

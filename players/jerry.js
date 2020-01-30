@@ -2,7 +2,7 @@
 let jerry = {
   name: 'Jerry Smith',
   health: '1200',
-  attacks: {
+  actions: {
     pity: {
       name: 'Pity Party',
       type: 'attack',
@@ -12,8 +12,6 @@ let jerry = {
       loadTime: '1500',
       description: 'Cause opponent to feel bad for you.',
     },
-  },
-  defenses: {
     fetus: {
       name: 'Fetal Position',
       type: 'defense',
