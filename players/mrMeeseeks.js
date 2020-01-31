@@ -2,54 +2,60 @@
 let mrMeeseeks = {
   name: 'Mr Meeseeks',
   health: '1200',
-  attacks: {
-    golf: {
+  actions: [
+    {
+      name: 'Golf',
       type: 'attack',
       damage: '20',
       defense: '0',
       timeout: '3100',
-      loadTime: '4200',
+      active: true,
       description: "Take off all of your opponents strokes from their golf game...",
     },
-    advice: {
+    {
+      name: 'Reverse Psychology',
       type: 'attack',
       damage: '7',
       defense: '0',
       timeout: '1000',
-      loadTime: '1500',
+      active: true,
       description: 'Provide extremely good advice for your opponent',
     },
-    pain: {
+    {
+      name: 'Exist',
       type: 'attack',
       damage: '16',
       defense: '0',
       timeout: '2100',
-      loadTime: '3100',
+      active: true,
       description: 'Existance is pain!!',
     },
-    immortal: {
+    {
+      name: 'Immortality',
       type: 'defense',
       damage: '0',
       defense: '17',
       timeout: '1000',
-      loadTime: '4500',
+      active: true,
       description: "It's getting weirrrrd",
     },
-    protect: {
+    {
+      name: 'Sheild from law',
       type: 'defense',
       damage: '0',
       defense: '12',
       timeout: '2500',
-      loadTime: '2000',
-      description: 'Protect me from the law',
+      active: true,
+      description: 'Sheild me from the law',
     },
-    mrMeeseeks: {
+    {
+      name: 'Mr Meeseeks',
       type: 'defense',
       damage: '0',
       defense: '9',
       timeout: '1300',
-      loadTime: '3500',
+      active: true,
       description: 'Can do!',
     }
-  },
+  ],
 }

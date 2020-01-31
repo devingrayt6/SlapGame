@@ -2,22 +2,14 @@
 let rick = {
   name: 'Rick Sanchez',
   health: '1200',
-  blenderPortal: {
-    type: 'attack',
-    damage: '17',
-    defense: '0',
-    timeout: '3000',
-    loadTime: '4700',
-    description: 'Open a portal to the blender universe under opponent.',
-  },
   actions: [
     {
       name: 'Particle Watch',
       type: 'attack',
       damage: '12',
       defense: '0',
+      active: true,
       timeout: '1000',
-      loadTime: '2000',
       description: 'Particle beam in the wrist watch, snake holster on the leg.',
     },
     {
@@ -25,17 +17,26 @@ let rick = {
       type: 'attack',
       damage: '23',
       defense: '0',
+      active: true,
       timeout: '4200',
-      loadTime: '5900',
       description: 'Extreme stank',
+    },
+    {
+      name: 'Blender Portal',
+      type: 'attack',
+      damage: '17',
+      defense: '0',
+      active: true,
+      timeout: '3000',
+      description: 'Open a portal to the blender universe under opponent.',
     },
     {
       name: 'Not Caring',
       type: 'defense',
       damage: '0',
       defense: '7',
+      active: true,
       timeout: '1000',
-      loadTime: '3500',
       description: "It's the best.",
     },
     {
@@ -43,8 +44,8 @@ let rick = {
       type: 'defense',
       damage: '0',
       defense: '3',
+      active: true,
       timeout: '0',
-      loadTime: '1000',
       description: 'You think I know everything about everything?',
     },
     {
@@ -52,9 +53,9 @@ let rick = {
       type: 'defense',
       damage: '0',
       defense: '13',
+      active: true,
       timeout: '1300',
-      loadTime: '4800',
       description: 'The numbing liquid...',
-    }
+    },
   ],
 }

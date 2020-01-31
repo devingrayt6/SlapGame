@@ -2,54 +2,60 @@
 let morty = {
   name: 'Morty Smith',
   health: '1200',
-  attacks: {
-    purge: {
+  actions: [
+    {
+      name: 'Purge',
       type: 'attack',
       damage: '50',
       defense: '0',
       timeout: '3500',
-      loadTime: '4700',
+      active: true,
       description: 'You just purged morty...',
     },
-    crash: {
+    {
+      name: 'Crash Landing',
       type: 'attack',
       damage: '9',
       defense: '0',
       timeout: '1000',
-      loadTime: '1500',
+      active: true,
       description: 'Crash land spaceship into opponent',
     },
-    weakHit: {
+    {
+      name: 'Weak Threat',
       type: 'attack',
       damage: '9',
       defense: '0',
       timeout: '1000',
-      loadTime: '1500',
+      active: true,
       description: 'You may be weak...but you can still do damage!',
     },
-    crying: {
+    {
+      name: 'Cry',
       type: 'defense',
       damage: '0',
       defense: '3',
       timeout: '0',
-      loadTime: '1500',
+      active: true,
       description: "Sometimes you just gotta cry it out...",
     },
-    goRick: {
+    {
+      name: 'Go Rick',
       type: 'defense',
       damage: '0',
       defense: '18',
       timeout: '2500',
-      loadTime: '4000',
+      active: true,
       description: 'Stand behind rick and let him do everything',
     },
-    mrMeeseeks: {
+    {
+      name: 'Mr Meeseeks Destroy!',
       type: 'defense',
       damage: '0',
       defense: '9',
       timeout: '1300',
-      loadTime: '3500',
+      active: true,
       description: 'Can do!',
     }
-  },
+  ],
 }

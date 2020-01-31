@@ -19,8 +19,24 @@ header{
 .progress{
   width: 25rem;
 }
+.user-controls{
+  margin-right: auto;
+  margin-left: auto;
+}
+.user-controls button{
+  width: 25%;
+}
+img{
+  margin: auto auto;
+  margin-top: 2rem;
+  max-width: 30rem;
+  max-height: 20rem;
+}
 @media screen and (max-width: 780px){
   .choose-player{
     flex-direction: column;
+  }
+  .user-controls button{
+    width: 50%;
   }
 }
